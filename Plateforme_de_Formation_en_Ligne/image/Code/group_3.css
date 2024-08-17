@@ -1,0 +1,794 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+header
+{
+   
+    
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    background-color: #2196f3;
+}
+.icone-logo
+{
+    display: flex;
+   
+}
+.style-log
+{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 17px;
+   
+}
+.bare-nav
+{
+    display: flex;
+}
+.acc 
+{
+    background-color: #fff;
+    padding: 7px;
+    color: #000;
+}
+#liste-nav
+{   
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-liste
+{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 8px 12px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo h1
+{
+    font-size: 20px;
+    margin-left: 7PX;
+    
+}
+.gr3
+{
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+.a_nav:hover{
+    color: #000;
+    padding: 7px;
+    background-color: #fff;
+    
+}
+.contante
+{
+
+
+   font-size: 20px;
+   margin-top: 25px;
+   padding: 40px;
+   
+
+}
+.contante img
+{
+    width: 250px;
+    float: right;
+}
+.contante h1 ,.contante h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px;
+    margin-bottom: 12px;
+
+    font-size: 25px;
+}
+.contante h3{
+    
+    font-size: 20px;
+}
+.p-text
+{
+    margin: 15px;
+    height: 250px;
+    font-size: 20px;
+    background-color: green;
+    padding: 15px;
+    margin-top: 25px;
+    
+}
+.p-text p
+{
+   
+    font-size: 20px;
+}
+.p-text h3
+{
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 15px;
+    
+}
+.checkbtn
+{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+    margin-top: 55px;
+    display: none;
+}
+#check
+{
+    display: none;
+}
+.lis-cours
+{
+    margin: 25px;
+    text-align: center;
+    font-size: 25PX;
+}
+.list h3 {
+    color: aquamarine;
+    font-size: 20PX;
+}
+.al-r
+{
+   font-size: 35px;
+   font-weight: 700;
+   margin: 30px;
+   justify-content: center;
+   display: flex;
+   color: #2196f3;;
+   margin-top: 25px;
+}
+.al-h
+{
+    color: white;
+    border: 1px solid #2196f3;
+    background-color: #2196f3;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+.mon-formation
+{
+   display:grid;
+   grid-template-columns: auto auto auto;
+   justify-content: space-between;
+   margin: 15px;
+}
+.formation{
+   margin: 10px;
+}
+.dett
+{
+  text-align: center;
+  color: green;
+  margin-top: 25px;
+}
+.image-log
+{
+    width: 100px;
+    height: 70px;
+    margin-top: 7px;
+}
+.mon-formation div
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+.mon-formation a{
+    text-decoration: none;
+}
+.bat{
+    width: 200px;
+    float: right;
+}
+#ve
+{
+   margin-left: 25px;
+   border: 1px solid white;
+   border-radius: 100%;
+}
+.bat
+{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+    
+    
+}
+.list
+{
+    font-size: 30px;
+    background-color: #2196f3;
+    color: #fff;
+    padding: 15px;
+    height: 300px;
+    margin-top: 25px;
+}
+.mon-img{
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+    margin-left:25px ;
+   
+    padding: 3px;
+    border: 1px solid green;
+    border-radius: 90px;
+
+
+}
+.q-img
+{
+    
+    background-color: green;
+   
+}
+.for-web-mob
+{
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: #2196f3;
+}
+.represente{
+    text-align: center;
+    color: #2196f3;
+    font-size: 30px;
+}
+.mes-img
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+th,td{
+    border: 2px solid;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+td a{
+    text-decoration: none;
+}
+th
+{
+    color: #fff;
+    background-color: green;
+    border: #000 solid;
+}
+.TEXT-web-mobile
+{
+    margin: 25px;
+}
+.TEXT-web-mobile p
+{
+    font-size: 20px;
+    
+}
+.TEXT-web-mobile img
+{
+    width: 300px;
+    height: 150px;
+    float: right;
+    margin: 12px;
+    
+}
+.list i{
+    display: flex;
+    justify-content: center;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px
+    
+}
+.log_for
+{
+    width: 100px;
+    height: 70px;
+    float: right;
+}
+.pro-image
+{
+    width: 250px;
+    height: 100px;
+    float: right;
+}
+.java div
+{
+    display: flex;
+   
+    
+}
+.java h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+    color: #fff;
+    background-color: green;
+   
+}
+.java h2{
+    color: #2196f3;
+    font-size: 40px;
+}
+iframe
+{
+    width: 50%;
+    height: 300px;
+    
+   
+}
+.ifr1
+{
+    margin-top: 15px;
+    text-align: left;
+}
+.video1
+{
+    
+    margin-right: 25px;
+}
+.details samp
+{
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.details p{
+    font-size: 17px;
+}
+
+.java img
+{
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+.php h1
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+    color: #fff;
+    background-color: green;
+}
+.php img{
+    width: 300px;
+    height: 150px;
+    float: right;
+}
+.video2
+{
+    margin-right: 25px;
+    
+}
+.php div
+{
+    display: flex;
+}
+.javascript img
+{
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+.javascript div
+{
+    display: flex;
+}
+.javascript h1
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+    color: #fff;
+    background-color: green;
+}
+.video3
+{
+    margin-right: 25px;
+}
+.html-css img
+{
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+.html-css div
+{
+    display: flex;
+}
+.html-css h1
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+    color: #fff;
+    background-color: green;
+}
+.html-css h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: #2196f3;
+}
+.php h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: #2196f3;
+}
+.javascript h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: #2196f3;
+}
+.java h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+    color: #2196f3;
+}
+.video4
+{
+    margin-right: 25px;
+    
+}
+.etudiant-te
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+}
+.etudiant
+{
+    width: 190px;
+    height: 150px;
+    padding: 10px;
+   
+}
+.img-etu
+{
+    background-color: #2196f3;
+    display: inline-flex;
+    flex-wrap: wrap-revers;
+    width: 100%;
+
+
+   
+}
+.img-etu h3{
+    color: #fff;
+    text-align: center;
+
+    
+}
+.img-nom
+{
+    border: 1px solid green;
+    margin: 25px;
+    padding: 5px;
+    background-color: green;
+
+}
+.java,.javascript,.php,.html-css
+{
+    margin: 15px;
+}
+.about img
+{
+    width: 100%;
+    height: 100px;
+   
+    
+}
+.personne div{
+    margin: 25px;
+    border: 1px solid #2196f3;
+    height: 260px;
+    background:#2196f3;
+    color: #fff;
+    padding: 5px;
+}
+.personne 
+{
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+.miss
+{
+    background-color: #2196f3;
+}
+.valeurs
+{
+    display: flex;
+    margin: 40px;
+    padding: 15px;
+
+}
+.valeurs img
+{
+    width: 50px;
+    height: 40px;
+    float: right;
+}
+.valeurs samp
+{
+    color: #2196f3;
+    font-size: 30px;
+    display: block;
+    
+
+}
+.valeurs div
+{
+    padding: 15px;
+    border: 1px solid;
+    margin: 15px;
+}
+h4,h1
+{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+}
+.personne h3
+{
+   text-align: center;
+   color: white;
+   margin: 10px;
+   
+   
+}
+.mon-form
+{
+    background-color: green;
+    border: 1px solid green;
+    padding: 15px;
+    width: 70%;
+    margin: 0 auto;
+}
+.mon-form label
+{
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+}
+.mon-form input
+{
+     width: 100%;
+     padding: 10px;
+}
+textarea
+{
+    margin-top: 15px;
+}
+  .formcon
+  { 
+   background-color: #2196f3; 
+   padding: 40px;
+   width: 100%;
+   margin: 20px 13px;
+  }
+ 
+ .formepase
+  {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    
+   }
+ .icon-conecte
+  { 
+   display: flex;
+   justify-content: space-around;  
+   margin: 50px;
+  }
+ .social-icon
+  { 
+   font-size: 24px; 
+   
+   border: 1px solid;
+   border-radius: 100% ;
+   width: 40px; 
+   text-align: center;
+   padding: 5px;
+   margin-left: 10px;
+   color: #fff;
+ }
+ .formcon p,.formcon h1{ 
+   color: #fff;
+ }
+ .groupe
+  {
+    margin-bottom: 20px; 
+    padding: 5px; 
+   
+    margin: 12px;
+   }
+   .groupe input 
+  {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid white; 
+    background-color: white;
+  }
+ .btn 
+  { 
+    width: 50%; 
+    padding: 10px; 
+    border: none; 
+    background-color: white; 
+    
+    cursor: pointer; 
+    border-radius: 90px;
+  }
+ .btn:hover 
+  {
+   background-color: green
+  }
+ .mot-pp
+  { 
+   text-align: center;
+   display: block;
+   color: #fff;
+   margin-top: 10px; 
+   text-decoration: none;
+  }
+   address
+   {
+    background-color: #2196f3;
+    margin: 30px;
+    color: #fff;
+    padding: 10px;
+    width: 70%;
+    position: relative;
+    left:   160px;
+
+   }
+   pre
+   {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0;
+   }
+   pre samp
+   {
+    color: #fff;
+   }
+   .miss samp,.miss h1{
+    color: #fff;
+   }
+   
+   address span
+   {
+    margin-top: 5px;
+   }
+  
+
+ @media screen and (max-width:990px){
+   
+    
+    .checkbtn
+    {
+        display: block;
+        margin: 12px;
+        float: right;
+    }
+    .logo h1
+    {
+        font-size: 30px;
+        
+    }
+    #liste-nav
+    {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        left: 100%;
+        text-align: center;
+        transition: 0.5s ease;
+        display: block;
+        background-color: #2196f3;
+    }
+    nav ul li
+    {
+        display: inline-block;
+        line-height: 20px;
+        
+    }
+    .logo h1
+    {
+        
+        color: #fff;
+        font-size: 15px;
+    }
+    .dett
+    {
+        font-size: 20px;
+    }
+    .style-log
+    {
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+    .contante h1,h3
+    {
+        font-size:20px;
+        
+    }
+    .contante h3
+    {
+        font-size:15px;
+        
+    }
+    #check:checked ~ ul
+    {
+        left: 0;
+    }
+    .video
+    {
+        font-size: 20px;
+    }
+    table {
+       width: 95%;
+    }
+   .represente
+   {
+    font-size: 20px;
+    margin-bottom: 15px;
+   }
+   .p-text
+   {
+    height: 400px;
+   }
+
+    .personne
+    {
+        display: flexbox;
+    }
+
+}
